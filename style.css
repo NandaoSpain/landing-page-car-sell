@@ -1,7 +1,111 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Didact+Gothic&family=Righteous&family=Roboto:ital@1&family=Sarala&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+    
+}
+
+.supercabecallo {
+    background-image: url('images/carrosenfileirados.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    
+    background-position: center center;
+    background-size:cover;
+    position: relative;
+}
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header .horarios {
+    display: flex;
+    background-color: #006DDF;
+    padding: 8px;
+    color: white;
+    
+}
+
+.horarios p {
+    align-items: center;
+    margin: auto;
+    
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+.cabecallo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 1.3em;
+    padding: 15px;
+    font-weight: 500;
+    gap: 50px;
+}
+
+.cabecallo a {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    justify-content: space-between;
+}
+
+.cabecallo nav a {
+    padding: 18px;
+}
+
+article .cabecallo button {
+    height: 30px;
+    width: 110px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #67a6eb;
+    border: 1px solid;
+    font-weight: 500;
+    font-size: .8em;
+    font-family: 'Didact Gothic', sans-serif;;
+}
+
+article .cabecallo  button:hover {
+    background: #00285f60;
+    color: white;
+}
+
+.sub-cabecallo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-top: 200px;
+      
+}
+
+.precio {
+    max-width: 100px;
+}
+
+input {
+    height: 50px;
+    width: 800px;
+    border-radius: 5px;
+    padding-left: 20px;
+    
 }
