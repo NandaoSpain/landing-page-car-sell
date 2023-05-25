@@ -76,14 +76,14 @@ article .cabecallo button {
     width: 110px;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #67a6eb;
+    background-color: #67a7eb;
     border: 1px solid;
     font-weight: 500;
     font-size: .8em;
     font-family: 'Didact Gothic', sans-serif;;
 }
 
-article .cabecallo  button:hover {
+article .cabecallo button:hover {
     background: #00285f60;
     color: white;
 }
@@ -94,7 +94,9 @@ article .cabecallo  button:hover {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    padding-top: 200px;
+    padding-top: 100px;
+    gap: 30px;
+    
       
 }
 
@@ -107,5 +109,26 @@ input {
     width: 800px;
     border-radius: 5px;
     padding-left: 20px;
-    
+    font-weight: 500;
+    font-size: 1em;
+    margin-bottom: 20px;
+
+}
+
+.sub-cabecallo h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    background-color: rgba(128, 128, 128, 0.815);
+    padding: 5px;
+    color:white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    text-shadow: 3px 3px 10px black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.603);
+}
+
+.sub-cabecallo p {
+    padding-top: 30px;
+    font-size: 2em;
 }
