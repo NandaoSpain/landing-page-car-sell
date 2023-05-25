@@ -71,7 +71,7 @@ header .horarios {
     padding: 18px;
 }
 
-article .cabecallo button {
+button {
     height: 30px;
     width: 110px;
     border-radius: 4px;
@@ -83,7 +83,7 @@ article .cabecallo button {
     font-family: 'Didact Gothic', sans-serif;;
 }
 
-article .cabecallo button:hover {
+button:hover {
     background: #00285f60;
     color: white;
 }
@@ -94,7 +94,7 @@ article .cabecallo button:hover {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 120px;
     gap: 30px;
     
       
@@ -111,7 +111,6 @@ input {
     padding-left: 20px;
     font-weight: 500;
     font-size: 1em;
-    margin-bottom: 20px;
 
 }
 
@@ -129,6 +128,12 @@ input {
 }
 
 .sub-cabecallo p {
-    padding-top: 30px;
+    padding: 10px 20px;
     font-size: 2em;
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.815);
+    border-radius: 10px;
+    text-shadow: 3px 3px 10px black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.603);
 }
