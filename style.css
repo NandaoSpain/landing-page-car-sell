@@ -100,10 +100,6 @@ button:hover {
       
 }
 
-.precio {
-    max-width: 100px;
-}
-
 input {
     height: 50px;
     width: 800px;
@@ -127,7 +123,7 @@ input {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.603);
 }
 
-.sub-cabecallo p {
+.sub-cabecallo > p {
     display: flex;
     padding: 10px 20px;
     font-size: 2em;
@@ -143,6 +139,14 @@ input {
     display: flex;
     gap: 50px;
     margin-top: 50px;
+}
+
+.sub-cabecallo .buttons .vender:hover {
+    background-color: #3083db;
+}
+
+.sub-cabecallo .buttons .comprar:hover {
+    background-color: rgb(221, 182, 56);
 }
 
 .sub-cabecallo .buttons .comprar {
@@ -167,4 +171,187 @@ input {
     font-weight: 500;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.158);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.603);
+}
+
+.sub-cabecallo .selos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+    
+}
+
+.sub-cabecallo .selos .precio {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-left: 25px;
+    margin: 10px;
+    height: 80px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(197, 200, 243, 0.603);;
+    
+}
+
+.sub-cabecallo .selos .precio img{
+    height: 50px;
+}
+
+
+.sub-cabecallo .selos .precio p {
+    padding: 20px;
+    
+}
+
+.sub-cabecallo .selos .garanticia {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-left: 25px;
+    margin: 10px;
+    height: 80px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(197, 200, 243, 0.603);
+}
+
+.sub-cabecallo .selos .garanticia img{
+    height: 50px;
+    padding-right: 20px;
+}
+
+.sub-cabecallo .selos .entrega {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    background-color: white;
+    margin: 10px;
+    height: 80px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(197, 200, 243, 0.603);
+}
+
+.sub-cabecallo .selos .entrega img{
+    height: 50px;
+    padding-right: 20px;
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 75px;    
+}
+
+.pesquisa > h3 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.pesquisa > p {
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.pesquisa .items-pesquisa {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+
+
+.pesquisa .items-pesquisa .linha1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.pesquisa .items-pesquisa .linha1 .SUV-4x4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pesquisa .items-pesquisa .linha1 .SUV-4x4:hover {
+    cursor: pointer;
+}
+
+.pesquisa .items-pesquisa .linha1 .compacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pesquisa .items-pesquisa .linha1 .compacto:hover {
+    cursor: pointer;
+}
+
+.pesquisa .items-pesquisa .linha1 .berlina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pesquisa .items-pesquisa .linha1 .berlina:hover {
+    cursor: pointer;
+}
+
+.pesquisa .items-pesquisa .linha1 .furgoneta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pesquisa .items-pesquisa .linha1 .furgoneta:hover {
+    cursor: pointer;
+}
+
+.pesquisa .items-pesquisa .linha2 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.pesquisa .items-pesquisa .linha2 .monovolumen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pesquisa .items-pesquisa .linha2 .monovolumen:hover {
+    cursor: pointer;
+}
+
+.pesquisa .items-pesquisa .linha2 .familiar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pesquisa .items-pesquisa .linha2 .familiar:hover {
+    cursor: pointer;
+}
+
+.pesquisa .items-pesquisa .linha2 .coupe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pesquisa .items-pesquisa .linha2 .coupe:hover {
+    cursor: pointer;
+}
+
+.pesquisa .items-pesquisa .linha2 .cabrio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pesquisa .items-pesquisa .linha2 .cabrio:hover {
+    cursor: pointer;
 }
