@@ -355,3 +355,41 @@ input {
 .pesquisa .items-pesquisa .linha2 .cabrio:hover {
     cursor: pointer;
 }
+
+.banner-family > img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.ventajas {
+    display: flex;
+    flex-direction: column;
+}
+
+.ventajas .precio > img {
+    height: 100px;
+}
+
+.ventajas revisiones > img {
+    height: 100px;
+}
+
+.ventajas .prueba > img {
+    height: 100px;
+}
+
+.ventajas .finan > img {
+    height: 100px;
+}
+
+.ventajas .ventajas-banners{
+    display: flex;
+}
+
+.ventajas .ventajas-banners .precio {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+}
