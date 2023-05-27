@@ -128,6 +128,7 @@ input {
 }
 
 .sub-cabecallo p {
+    display: flex;
     padding: 10px 20px;
     font-size: 2em;
     font-weight: bolder;
@@ -135,5 +136,35 @@ input {
     background-color: rgba(128, 128, 128, 0.815);
     border-radius: 10px;
     text-shadow: 3px 3px 10px black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.603);
+}
+
+.sub-cabecallo .buttons {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.sub-cabecallo .buttons .comprar {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(255, 196, 0);
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.158);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.603);
+}
+
+.sub-cabecallo .buttons .vender {
+    height: 40px;
+    width: 200px;
+    background-color: #006DDF;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.158);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.603);
 }
